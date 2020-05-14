@@ -5,7 +5,7 @@ export default class Question extends Component{
     super()
     this.state={
       questions:localStorage.getItem("title"),
-      secondques:[JSON.parse(localStorage.getItem("myobj"))]
+      secondques:JSON.parse(localStorage.getItem("myobj"))
     }
   }
   render(){
