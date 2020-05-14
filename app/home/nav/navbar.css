@@ -1,0 +1,21 @@
+nav{
+  background:rgba(224, 225, 224, 0.3);
+}
+.nav-item{
+  color: black;
+} 
+nav ul li a{
+  padding: 1rem 0;
+  margin: 0 2.8rem;
+  position: relative;
+  letter-spacing: 2px; 
+  font-size: 19px;
+}
+nav ul li input{
+  border: none;
+  border-radius: 20px;
+  background: rgba(120, 121, 120, 0.3);
+  outline: none;
+  text-align: center;
+  padding: 15px;
+}

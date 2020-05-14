@@ -1,0 +1,66 @@
+.login-content{
+  background: url('https://dhusanthanr.github.io/assets/image/transparent.png') no-repeat;
+  background-position:center;
+  background-size:cover; 
+  height:100vh;
+}
+.mainContent{
+  padding:40px;
+}
+.centerContent{
+  padding:30px;
+  box-shadow: 0px 0px 20px rgba(145, 143, 143, 0.8);
+}
+.form{
+  padding:40px;
+  height:500px;
+  width: 310px;
+  border: 2px solid rgb(75, 204, 243);
+  background: white;
+}
+.form-content{
+  margin-left:50px; 
+}
+.leftContent{
+  padding:50px; 
+  background:rgb(75, 204, 243);
+}
+.bottomContent{
+  height: auto;
+  width: 310px;
+}
+.undraw{
+  height: 400px;
+}
+
+@media screen and (max-width: 786px){
+  .mainContent{
+    padding: 100px 0px;
+  }
+  .centerContent{
+    padding:20px;
+    }
+   .form{
+     padding-right: 50px;
+     align-content: center;
+   } 
+   .form-content{
+     margin-left: 0;
+   }
+}
+@media screen and (max-width: 430px){
+  .mainContent{
+    padding: 0px;
+  }
+  .leftContent{
+    order: 1;
+    height: 350px;
+    width: 290px;
+
+  }
+  .form{
+    order: 2;
+    height:390px;
+    width: 290px;
+  }
+}
