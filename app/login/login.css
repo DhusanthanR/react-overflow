@@ -45,7 +45,7 @@
      align-content: center;
    } 
    .form-content{
-     margin-left: 0;
+     margin-left:0px;
    }
 }
 @media screen and (max-width: 430px){
@@ -63,4 +63,8 @@
     height:390px;
     width: 290px;
   }
+  
+   .form-content{
+     margin:0px 50px;
+   }
 }
