@@ -16,7 +16,7 @@ export default class Navbar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-md navbar-light">
-          <h3 className="ml-5">
+          <h3 className="ml-5 text-uppercase">
             {localStorage.getItem("email").slice(0, -10)}
           </h3>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
