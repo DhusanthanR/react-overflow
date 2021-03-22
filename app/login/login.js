@@ -86,12 +86,7 @@ class Login extends Component {
               </div>
             </div>
             <div className="col-md-8 leftContent">
-              <Undraw
-                keywords="svg"
-                name="bookmarks"
-                height="400px"
-                primaryColor="#4B9CF3"
-              />
+            
             </div>
           </div>
         </div>
